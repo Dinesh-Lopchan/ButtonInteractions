@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Gurkha"
+        android:layout_width="355dp"
+        android:layout_height="49dp"
+        android:text="Welcome to the Gurkha PC world"
+        android:textAlignment="center"
+        android:textColor="@color/LightGoldenrodYellow"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/Laptops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laptops"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="374dp"
+        android:layout_height="69dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227">
+
+        <RadioButton
+            android:id="@+id/HP"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:text="HP"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/LavenderBlush"/>
+
+        <RadioButton
+            android:id="@+id/Lenovo"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:text="Lenovo"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/LavenderBlush"/>
+
+        <RadioButton
+            android:id="@+id/Microsoft"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:text="Microsoft"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/LavenderBlush"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Models"
+        android:layout_width="309dp"
+        android:layout_height="57dp"
+        android:text="Models"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="372dp"
+        android:layout_height="79dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="384dp"
+        android:layout_height="53dp"
+        android:text="Selected laptop:"
+        android:textAlignment="center"
+        android:textColor="@color/SaddleBrown"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="379dp"
+        android:layout_height="66dp"
+        android:text="Selected model:"
+        android:textAlignment="center"
+        android:textColor="@color/SaddleBrown"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

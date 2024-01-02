@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="empty">
+        <item>Choose any Laptop</item>
+        <item>HP Pavillion</item>
+        <item>HP Envy</item>
+        <item>HP Stream</item>
+        <item>Lenovo Thinkpad</item>
+        <item>Lenovo Ideapad</item>
+        <item>Lenovo Yoga</item>
+        <item>Microsoft Surface book</item>
+        <item>Microsoft Surface pro</item>
+        <item>Microsoft Surface Studio</item>
+    </string-array>
+
+    <string-array name="HP_model">
+        <item>HP Pavillion</item>
+        <item>HP Envy</item>
+        <item>HP Stream</item>
+    </string-array>
+
+    <string-array name="Lenovo_model">
+        <item>Lenovo Thinkpad</item>
+        <item>Lenovo Ideapad</item>
+        <item>Lenovo Yoga</item>
+    </string-array>
+
+    <string-array name="Microsoft_model">
+        <item>Microsoft Surface book</item>
+        <item>Microsoft Surface pro</item>
+        <item>Microsoft Surface Studio</item>
+    </string-array>
+</resources>
